@@ -18,5 +18,3 @@ Getting Started
 
 TODO
 ----
-- Use managed deps for rogue-spindle once 2.2.0 gets pushed
-- Figure out why Spindle needs the lift dep and fix it

@@ -10,13 +10,17 @@ resolvers += "Twitter's Repository" at "http://maven.twttr.com/"
 
 libraryDependencies += "com.twitter" % "finatra" % "1.4.0"
 
-libraryDependencies += "com.foursquare" %% "rogue-lift" % "2.2.0" intransitive()
+libraryDependencies += "com.foursquare" %% "rogue-field" % "2.2.1" intransitive()
 
-libraryDependencies += "org.mongodb" % "mongo-java-driver" % "2.9.3"
+libraryDependencies += "com.foursquare" %% "rogue-index" % "3.0.0-beta1" intransitive()
+
+libraryDependencies += "com.foursquare" %% "rogue-core" % "3.0.0-beta1" intransitive()
+
+libraryDependencies += "com.foursquare" %% "rogue-spindle" % "3.0.0-beta1" intransitive()
+
+libraryDependencies += "org.mongodb" % "mongo-java-driver" % "2.10.1"
 
 libraryDependencies += "com.foursquare" % "common-thrift-bson" % "1.7.0"
-
-libraryDependencies += "net.liftweb" % "lift-mongodb-record_2.10" % "2.5.1"
 
 seq(thriftSettings: _*)
 
