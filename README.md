@@ -10,7 +10,6 @@ Getting Started
     git clone https://github.com/paperstreet/thrinatra.git --origin thrinatra $THRINATRA_APP
     cd $THRINATRA_APP
     heroku apps:create --addons=mongohq $THRINATRA_APP
-    heroku labs:enable user-env-compile
     heroku config:set SBT_CLEAN=true
     git push heroku master
     open "http://$THRINATRA_APP.herokuapp.com"
